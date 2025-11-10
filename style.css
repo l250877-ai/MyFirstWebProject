@@ -1,0 +1,111 @@
+/* Basic body styling */
+body {
+    background-color: #030f11; /* Light blue background */
+    font-family: 'Trebuchet MS', sans-serif; /* Font style for entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Overall container styling */
+#container {
+    width: 80%; /* Page takes 80% of screen width */
+    margin: 10px auto; /* Centers the page horizontally */
+    border: 3px solid #8b22a8; /* Adds border around main container */
+    background-color: #fcfcfc; /* White background inside */
+    padding: 100px; /* Space inside the container */
+    box-shadow: 0 0 10px #cd481b; /* Soft shadow for depth */
+}
+
+/* Header styling */
+#header {
+    text-align: center; /* Centers text */
+    border-bottom: 2px solid #77c9d4; /* Line under header */
+    padding-bottom: 10px; /* Space below text */
+    margin-bottom: 20px; /* Space before next section */
+}
+
+/* Subtitle style */
+.subtitle {
+    color: #5c9ea4; /* Soft blue-green text */
+    font-style: italic; /* Italicized text */
+}
+
+/* Layout for sidebar and content */
+#main {
+    display: flex; /* Places sidebar and content side by side */
+}
+
+/* Sidebar styling */
+#sidebar {
+    width: 25%; /* Sidebar takes 25% width */
+    background-color: #77c9d4; /* Blue background */
+    padding: 15px; /* Space inside sidebar */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+}
+
+/* Sidebar heading */
+#sidebar h2 {
+    border-bottom: 2px solid white; /* White line below heading */
+    padding-bottom: 5px; /* Space below text */
+    color: white; /* White text color */
+}
+
+/* Sidebar list styling */
+#sidebar ul {
+    list-style-type: disc; /* Bulleted list */
+    margin-left: 20px; /* Space before list */
+}
+
+/* Sidebar links */
+#sidebar li a {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Removes underline */
+}
+
+/* Hover effect on sidebar links */
+#sidebar li a:hover {
+    text-decoration: underline; /* Underline appears when hovered */
+}
+
+/* Main content section styling */
+#content {
+    width: 70%; /* Content area takes 70% width */
+    margin-left: 5%; /* Space between sidebar and content */
+}
+
+/* Each post (article) styling */
+.post {
+    border: 2px solid #b2e0df; /* Light border around post */
+    background-color: #f2fdfd; /* Very light blue background */
+    padding: 15px; /* Space inside post */
+    margin-bottom: 15px; /* Space between posts */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Post headings */
+.post h3 {
+    color: #2c7a7b; /* Dark teal color */
+}
+
+/* Date inside post heading */
+.date {
+    color: #008cba; /* Blue text for date */
+    font-weight: bold; /* Makes date bold */
+}
+
+/* Quoted or special text */
+.quote {
+    font-style: italic; /* Italicized text */
+    color: #d66b5d; /* Brownish-red color for quotes */
+}
+
+/* Post images */
+.post-img {
+    float: right; /* Moves image to right side of text */
+    margin-left: 15px; /* Space between text and image */
+    border: 2px solid #b2e0df; /* Border around image */
+    border-radius: 8px; /* Rounded corners for image */
+    width: 120px; /* Fixed width for image */
+    height: auto; /* Maintains aspect ratio */
+}

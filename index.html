@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Declares this file as an HTML5 document -->
+
+<html lang="en">
+<!-- Opens the HTML document and specifies the language as English -->
+
+<head>
+    <!-- Head section contains metadata and links to CSS -->
+
+    <meta charset="UTF-8">
+    <!-- Defines character encoding so all symbols and letters display correctly -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes page responsive for mobile and desktop screens -->
+
+    <title>Victoria's Journal</title>
+    <!-- Title that appears on the browser tab -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Links external CSS file for styling -->
+</head>
+
+<body>
+    <!-- Body section contains all visible webpage content -->
+
+    <div id="container">
+        <!-- Main wrapper div that contains the whole layout -->
+
+        <header id="header">
+            <!-- Header section for the title and subtitle -->
+            <h1>Victoria's Journal</h1>
+            <!-- Main heading of the website -->
+            <p class="subtitle">So fresh and so clean</p>
+            <!-- Subtitle styled separately using class -->
+        </header>
+
+        <div id="main">
+            <!-- Container for main content area which includes sidebar and posts -->
+
+            <aside id="sidebar">
+                <!-- Sidebar for navigation or friend list -->
+                <h2>Friends</h2>
+                <!-- Subheading inside sidebar -->
+                <ul>
+                    <!-- Unordered list for friend links -->
+                    <li><a href="#">390 Buddies</a></li>
+                    <!-- List item with hyperlink -->
+                    <li><a href="#">Big Will</a></li>
+                    <!-- Another list item -->
+                    <li><a href="#">Conan the Librarian</a></li>
+                    <!-- Another list item -->
+                </ul>
+            </aside>
+
+            <section id="content">
+                <!-- Main content area for journal posts -->
+
+                <!-- Article 1 -->
+                <article class="post">
+                    <!-- Article tag represents a single post -->
+                    <h3>
+                        <!-- Subheading for article -->
+                        <span class="date">04/09/08:</span>
+                        <!-- Span used to style part of text differently -->
+                        Spatulas
+                    </h3>
+
+                    <p>
+                        <!-- Paragraph describing the article -->
+                        Yesterday, I went to the store and got some much needed spatulas!
+                        <span class="quote">
+                            <!-- Span for styling a short piece of text -->
+                            (What better way to say I love myself than to buy myself a spatula?)
+                        </span>
+                    </p>
+
+                    <img src="spatula.png" alt="Spatula" class="post-img">
+                    <!-- Image aligned using CSS with float property -->
+                </article>
+
+                <!-- Article 2 -->
+                <article class="post">
+                    <h3>
+                        <span class="date">04/08/08:</span>
+                        Cookie Cupcakes
+                    </h3>
+
+                    <p>
+                        My favorite cartoon character is Cookie, and my favorite dessert is cupcakes.
+                        So Cookie Cupcakes are best of both worlds! Did you know Cookie once said,
+                        <span class="quote">
+                            “Sometimes me think what is love, and then me think love is what cookie is for.”
+                        </span>
+                        I wonder if the same applies for cupcakes!
+                    </p>
+
+                    <img src="cupcakes.png" alt="Cupcakes" class="post-img">
+                </article>
+
+            </section>
+            <!-- End of content section -->
+
+        </div>
+        <!-- End of main container -->
+
+    </div>
+    <!-- End of overall page container -->
+</body>
+<!-- End of body -->
+
+</html>
+<!-- End of HTML document -->
